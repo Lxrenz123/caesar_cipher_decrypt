@@ -2,7 +2,7 @@
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 
 
-ciphertext = "gvswwmrkxlivyfmgsrhnrisegl"
+ciphertext = "fcwkgqrcp"
 
 decrypted = ""
 key = 1
@@ -14,7 +14,7 @@ while key <= 25:
     for j in ciphertext:
 
         index = alphabet.index(j)
-        decrypted += alphabet[(index + key) % len(alphabet)]
+        decrypted += alphabet[(index - key) % len(alphabet)]
         
     print(decrypted)
     decrypted = ""
