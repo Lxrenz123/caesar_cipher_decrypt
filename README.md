@@ -1,8 +1,8 @@
-
+```python
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 
 
-ciphertext = "kjlijdliljhdjdhfkfkhhjkkhhkihlhnhghekfhmhjhkhfhekfkkkjkghghjhlhghmhhhfkikfkfhm"
+ciphertext = "wpjvJAM{jhlzhy_k3jy9wa3k_86kl32k2}"
 
 decrypted = ""
 key = 1
@@ -21,7 +21,7 @@ while key <= 25:
             decrypted += a[(index - key) % len(a)]
 
         else:
-
+            
             decrypted += j
             
             
@@ -30,3 +30,4 @@ while key <= 25:
     key += 1
    
    
+```
